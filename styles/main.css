@@ -22,7 +22,7 @@ header {
 }
 
 #header-left-side {
-  padding: 0 24px;
+  padding: 0 172px;
   display: flex;
   gap: 24px;
 }
@@ -32,7 +32,7 @@ header {
   width: auto;
 }
 
-#header-logo {
+.logo {
   flex: 1;
   font-family: "Fascinate Inline", system-ui;
   font-weight: 400;
@@ -80,11 +80,89 @@ header {
 }
 
 nav {
-  padding: 0 24px;
+  padding: 0 172px;
   display: flex;
   gap: 16px;
 }
 
 main {
-  margin: 72px 120px 0;
+  flex-direction: column;
+  margin: 108px 200px 0;
+}
+
+main h2 {
+  margin: 20px 0;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.product-box {
+  width: 220px;
+}
+
+.product-box > * {
+  margin-left: 16px;
+  margin-bottom: 20px;
+  margin-right: 16px;
+}
+
+.product-box-img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+.product-box h5 {
+  font-size: 13px;
+  height: 26px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-box-price-add-to-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-icon-btn {
+  margin: unset;
+  width: 24px;
+  height: 24px;
+  background-color: unset;
+  border: unset;
+}
+
+.product-icon {
+  margin: unset;
+  width: 24px;
+  height: 24px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(187, 255, 187);
+}
+
+#footer-about-us {
+  width: 220px;
+}
+
+#footer-made-by {
+  padding: 20px 0;
+}
+
+#footer-about-us, #footer-contact-us {
+  padding: 20px 172px;
+}
+
+#footer-made-by h4, #footer-contact-us h4 {
+  margin-bottom: 16px;
 }
