@@ -3,9 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>Главная</title>
 </head>
 <body>
-  
+  <header>
+    <div id="header-left-side">
+      <a href="index.html">
+        <h1 id="header-logo">FoodMart</h1>
+      </a>
+      <a href="pages/categories.html">
+        <div id="categories-btn">
+          Каталог
+        </div>
+      </a>
+      <div id="search-bar">
+        <button id="search-icon-btn" onclick="console.log('test')">
+          <img class="header-icon" id="search-icon" src="assets/icons/search-svgrepo-com.svg" alt="Search Icon">
+        </button>
+        <input type="text" name="search-bar-textbox" id="search-bar-textbox" placeholder="">
+      </div>
+    </div>
+    <nav>
+      <img class="header-icon" src="assets/icons/globe-1-svgrepo-com.svg" alt="Language Icon">
+      <a href="pages/cart.html">
+        <img class="header-icon" src="assets/icons/cart-4-svgrepo-com.svg" alt="Cart Icon">
+      </a>
+      <a href="pages/profile.html">
+        <img class="header-icon" src="assets/icons/user-1-svgrepo-com.svg" alt="Profile Icon">
+      </a>
+    </nav>
+  </header>
+  <main>
+  </main>
 </body>
 </html>
