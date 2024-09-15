@@ -1,0 +1,66 @@
+.info {
+  width: 50%;
+}
+
+.info-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 25px;
+}
+
+.control-info {
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  background-color: rgb(233, 233, 233);
+  width: 50%;
+  height: 30px;
+}
+
+.submit-button {
+  background-color: rgb(144, 238, 144);
+  width: 200px;
+  height: 30px;
+  border-radius: 0.25rem;
+}
+
+.info-buttons {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+form {
+  margin-bottom: 20px;
+  align-items: center;
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+.profile-icon {
+  height: 50px;
+  width: auto;
+  margin-bottom: 20px;
+}
+
+.specials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.bonus {
+  display: flex;
+  width: 400px;
+  height: 60px;
+  background-color: rgb(144, 238, 144);
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: center;
+}

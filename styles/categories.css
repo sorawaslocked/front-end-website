@@ -1,0 +1,25 @@
+#categories-container {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.category-box {
+  width: 140px;
+  height: 180px;
+}
+
+.category-box h4 {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+.category-img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 16px;
+}
