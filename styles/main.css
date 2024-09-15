@@ -86,8 +86,8 @@ nav {
 }
 
 main {
-  flex-direction: column;
   margin: 108px 200px 0;
+  min-height: calc(100vh - 280px);
 }
 
 main h2 {
