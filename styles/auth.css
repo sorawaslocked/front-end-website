@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 72px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(187, 255, 187);
+}
+
+#header-left-side {
+  padding: 0 172px;
+  display: flex;
+  gap: 24px;
+}
+
+.header-icon {
+  height: 24px;
+  width: auto;
+}
+
+.logo {
+  flex: 1;
+  font-family: "Fascinate Inline", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(17, 202, 17);
+}
+
+#categories-btn {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding: 4px 8px;
+  height: 32px;
+  border: 2px solid rgb(17, 202, 17);
+  border-radius: 8px;
+  background-color: white;
+  font-size: 16px;
+}
+
+#search-bar {
+  padding: 4px 8px;
+  display: flex;
+  flex: 1;
+  gap: 8px;
+  align-items: center;
+  height: 32px;
+  border: 2px solid rgb(17, 202, 17);
+  border-radius: 8px;
+  background-color: white;
+}
+
+#search-icon-btn {
+  border: none;
+  background-color: unset;
+}
+
+#search-icon:hover {
+  cursor: pointer;
+}
+
+#search-bar-textbox {
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+nav {
+  padding: 0 172px;
+  display: flex;
+  gap: 16px;
+}
+
+
+
+
+.auth-container {
+  background-color:white;
+  padding: 40px;
+  margin: 100px auto;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.1);
+}
+
+.auth-container h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.auth-container label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.auth-container button:hover {
+  background-color: #16a085;
+}
+
+.auth-container p {
+  margin: 10px;
+  text-align: center;
+}
+
+.auth-container p a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+.auth-container p a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(187, 255, 187);
+}
+
+#footer-about-us {
+  width: 220px;
+}
+
+#footer-made-by {
+  padding: 20px 0;
+}
+
+#footer-about-us, #footer-contact-us {
+  padding: 20px 172px;
+}
+
+#footer-made-by h4, #footer-contact-us h4 {
+  margin-bottom: 16px;
+}
